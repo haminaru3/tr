@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document Version="2">
+    <Protection InputFileName="trauma-loader.exe" Options="499456" VMCodeSectionName=".?????" VMVersion="1" VMComplexity="20">
+        <Messages>
+            <Message Id="0" />
+            <Message Id="1" />
+            <Message Id="2" />
+            <Message Id="3" />
+            <Message Id="4" />
+        </Messages>
+        <Folders>
+            <Folder Name="strings" />
+            <Folder Name="kernel" />
+            <Folder Name="main" />
+        </Folders>
+        <Procedures>
+            <Procedure MapAddress='string &quot;trauma/skeet project&quot;' Options="0" Folder="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot;&#x1B;[0m&quot;' Options="0" Folder="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot;fakecri.me/trauma&quot;' Options="0" Folder="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot;for yougame.biz&quot;' Options="0" Folder="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot;14.08.24 Умер матвей мин.дамаг, я так и не успела признатся в любви.&quot;' Options="0" Folder="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot;привет хочешь убить свою мать камнями тупой пидр&quot;' Options="0" Folder="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot;:wave:&quot;' Options="0" Folder="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;dec_bytes&quot;' Options="0" Folder="2" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;comm_req&quot;' Options="0" Folder="1" CompilationType="1" />
+            <Procedure MapAddress="EntryPoint" Options="0" Folder="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;inject_dll&quot;' Options="0" Folder="2" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;load_kernel&quot;' Options="0" Folder="1" CompilationType="1" />
+            <Procedure MapAddress='string &quot; - &#x1B;[38;2;255;125;125mWARNING!&#x1B;[0m&quot;' Options="0" Folder="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot; - fakecri.me/trauma&quot;' Options="0" Folder="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot;&#x1B;[37m[&#x1B;[38;2;125;255;125m-&#x1B;[37m]&#x1B;[38;2;220;220;220m &quot;' Options="0" Folder="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot;  |  THIS PROJECT IS COMPLETELY FREE!&#x0A;  |  MAKE SURE YOU DOWNLOADED IT FROM TRUSTED SOURCES.&#x0A;  |  LEGIT SOURCE: fakecri.me/trauma | AVOID SCAMS.&quot;' Options="0" Folder="0" CompilationType="1" />
+        </Procedures>
+        <Objects />
+    </Protection>
+    <DLLBox>
+        <Folders />
+    </DLLBox>
+    <Script />
+    <LicenseManager />
+</Document>

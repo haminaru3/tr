@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{90308f56-5394-4662-b608-22f7dad269ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\vlizer">
+      <UniqueIdentifier>{584e82f9-5593-491f-b873-f14cbcaf71d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="core.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="kli.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="vlizer\VirtualizerSDKCustomVMsMacros.h">
+      <Filter>include\vlizer</Filter>
+    </ClInclude>
+    <ClInclude Include="vlizer\VirtualizerSDKMacros.h">
+      <Filter>include\vlizer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="vlizer\VirtualizerSDKCustomVmMacros.asm">
+      <Filter>include\vlizer</Filter>
+    </MASM>
+    <MASM Include="vlizer\VirtualizerSDKMacros.asm">
+      <Filter>include\vlizer</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>

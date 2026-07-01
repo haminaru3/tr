@@ -14,7 +14,7 @@
 #include <iostream>
 #include <psapi.h>
 #include <sys/types.h>
-#include <atlstr.h>
+// #include <atlstr.h> // not needed
 #include <regex>
 #include <string>
 #include <chrono>
